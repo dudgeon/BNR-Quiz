@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		6CD17E201BC2D1E100463CE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD17E1F1BC2D1E100463CE3 /* AppDelegate.swift */; };
-		6CD17E221BC2D1E100463CE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD17E211BC2D1E100463CE3 /* ViewController.swift */; };
 		6CD17E251BC2D1E100463CE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD17E231BC2D1E100463CE3 /* Main.storyboard */; };
 		6CD17E271BC2D1E100463CE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD17E261BC2D1E100463CE3 /* Assets.xcassets */; };
 		6CD17E2A1BC2D1E100463CE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD17E281BC2D1E100463CE3 /* LaunchScreen.storyboard */; };
 		6CD17E351BC2D1E100463CE3 /* Quiz_Ch_01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD17E341BC2D1E100463CE3 /* Quiz_Ch_01Tests.swift */; };
 		6CD17E401BC2D1E100463CE3 /* Quiz_Ch_01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD17E3F1BC2D1E100463CE3 /* Quiz_Ch_01UITests.swift */; };
+		6CD17E4E1BC2DF4100463CE3 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD17E4D1BC2DF4100463CE3 /* QuizViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		6CD17E501BC2DFC800463CE3 /* Notes.md in Sources */ = {isa = PBXBuildFile; fileRef = 6CD17E4F1BC2DFC800463CE3 /* Notes.md */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		6CD17E1C1BC2D1E100463CE3 /* Quiz-Ch_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quiz-Ch_01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD17E1F1BC2D1E100463CE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6CD17E211BC2D1E100463CE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6CD17E241BC2D1E100463CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CD17E261BC2D1E100463CE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CD17E291BC2D1E100463CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		6CD17E3B1BC2D1E100463CE3 /* Quiz-Ch_01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quiz-Ch_01UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD17E3F1BC2D1E100463CE3 /* Quiz_Ch_01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz_Ch_01UITests.swift; sourceTree = "<group>"; };
 		6CD17E411BC2D1E100463CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD17E4D1BC2DF4100463CE3 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuizViewController.swift; path = ../QuizViewController.swift; sourceTree = "<group>"; };
+		6CD17E4F1BC2DFC800463CE3 /* Notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Notes.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		6CD17E131BC2D1E100463CE3 = {
 			isa = PBXGroup;
 			children = (
+				6CD17E4F1BC2DFC800463CE3 /* Notes.md */,
 				6CD17E1E1BC2D1E100463CE3 /* Quiz-Ch_01 */,
 				6CD17E331BC2D1E100463CE3 /* Quiz-Ch_01Tests */,
 				6CD17E3E1BC2D1E100463CE3 /* Quiz-Ch_01UITests */,
@@ -97,8 +100,8 @@
 		6CD17E1E1BC2D1E100463CE3 /* Quiz-Ch_01 */ = {
 			isa = PBXGroup;
 			children = (
+				6CD17E4D1BC2DF4100463CE3 /* QuizViewController.swift */,
 				6CD17E1F1BC2D1E100463CE3 /* AppDelegate.swift */,
-				6CD17E211BC2D1E100463CE3 /* ViewController.swift */,
 				6CD17E231BC2D1E100463CE3 /* Main.storyboard */,
 				6CD17E261BC2D1E100463CE3 /* Assets.xcassets */,
 				6CD17E281BC2D1E100463CE3 /* LaunchScreen.storyboard */,
@@ -255,8 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CD17E221BC2D1E100463CE3 /* ViewController.swift in Sources */,
 				6CD17E201BC2D1E100463CE3 /* AppDelegate.swift in Sources */,
+				6CD17E4E1BC2DF4100463CE3 /* QuizViewController.swift in Sources */,
+				6CD17E501BC2DFC800463CE3 /* Notes.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +404,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "is.geoff.Quiz-Ch-01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -411,6 +416,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "is.geoff.Quiz-Ch-01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
