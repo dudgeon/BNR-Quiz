@@ -34,6 +34,9 @@ class QuizViewController: UIViewController {
     
     @IBOutlet var questionLabel: UILabel! // implicitly unwrapped
     @IBOutlet var answerLabel: UILabel!
+
+    // extra credit ;)
+    @IBOutlet var showAnswerButton: UIButton! // allow me to disable the showAnswerButton
     
     
     //: CONTROLLER
@@ -42,11 +45,27 @@ class QuizViewController: UIViewController {
     // let's declare methods for our controls! writing these out manually
     
     @IBAction func showNextQuestion(sender: AnyObject){
+        currentQuestionIndex++
+
+        // make sure we don't overrun the Array
+        if currentQuestionIndex == questions.count {
+            currentQuestionIndex = 0
+        }
+        
+        // update the questionLabel's text
+        questionLabel.text = questions[currentQuestionIndex]
+        answerLabel.text = "???"
+        
+        // re-enable the showAnswerButton
+        showAnswerButton.enabled = true
         
     }
     
     @IBAction func showAnswer(send: AnyObject){
+        answerLabel.text = answers[currentQuestionIndex]
         
+        // disable the button
+        showAnswerButton.enabled = false
     }
     
     
@@ -56,12 +75,15 @@ class QuizViewController: UIViewController {
     
     
     
-// HIDE FOR NOW:
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//
-//        // Do any additional setup after loading the view.
-//    }
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // populate the first question
+        questionLabel.text = questions[currentQuestionIndex]
+        
+        
+    }
 //
 //    override func didReceiveMemoryWarning() {
 //        super.didReceiveMemoryWarning()

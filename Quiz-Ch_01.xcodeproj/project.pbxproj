@@ -48,7 +48,7 @@
 		6CD17E3F1BC2D1E100463CE3 /* Quiz_Ch_01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz_Ch_01UITests.swift; sourceTree = "<group>"; };
 		6CD17E411BC2D1E100463CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CD17E4D1BC2DF4100463CE3 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuizViewController.swift; path = ../QuizViewController.swift; sourceTree = "<group>"; };
-		6CD17E4F1BC2DFC800463CE3 /* Notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Notes.md; sourceTree = "<group>"; };
+		6CD17E4F1BC2DFC800463CE3 /* Notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = Notes.md; path = ../Notes.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,6 @@
 		6CD17E131BC2D1E100463CE3 = {
 			isa = PBXGroup;
 			children = (
-				6CD17E4F1BC2DFC800463CE3 /* Notes.md */,
 				6CD17E1E1BC2D1E100463CE3 /* Quiz-Ch_01 */,
 				6CD17E331BC2D1E100463CE3 /* Quiz-Ch_01Tests */,
 				6CD17E3E1BC2D1E100463CE3 /* Quiz-Ch_01UITests */,
@@ -105,6 +104,7 @@
 				6CD17E231BC2D1E100463CE3 /* Main.storyboard */,
 				6CD17E261BC2D1E100463CE3 /* Assets.xcassets */,
 				6CD17E281BC2D1E100463CE3 /* LaunchScreen.storyboard */,
+				6CD17E4F1BC2DFC800463CE3 /* Notes.md */,
 				6CD17E2B1BC2D1E100463CE3 /* Info.plist */,
 			);
 			path = "Quiz-Ch_01";

@@ -72,6 +72,7 @@
                     <connections>
                         <outlet property="answerLabel" destination="pBB-6T-rLe" id="IUN-I7-Tug"/>
                         <outlet property="questionLabel" destination="5GD-JD-WU3" id="TPq-N8-bju"/>
+                        <outlet property="showAnswerButton" destination="s92-6W-fyS" id="295-Lc-LGh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
