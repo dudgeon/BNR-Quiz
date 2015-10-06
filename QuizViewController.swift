@@ -25,22 +25,28 @@ class QuizViewController: UIViewController {
     
     //: MODEL
     // [_] may want to move this to own file to move data out of the controller
-    let questions = ["From what is Cognac made?", "What is the capital of Vermont?", "What is 7 + 7"]
-    let answers = ["Grapes", "Montpelier", "14"]
-    
+    let questions = [
+        "From what is Cognac made?",
+        "What is the capital of Vermont?",
+        "What is 7 + 7"
+    ]
+    let answers = [
+        "Grapes",
+        "Montpelier",
+        "14"
+    ]
+    var currentQuestionIndex: Int = 0    
     
     //: VIEW
     // Connections to --> Main.storyboard; Writing these out manually
     
     @IBOutlet var questionLabel: UILabel! // implicitly unwrapped
     @IBOutlet var answerLabel: UILabel!
-
-    // extra credit ;)
     @IBOutlet var showAnswerButton: UIButton! // allow me to disable the showAnswerButton
     
     
     //: CONTROLLER
-    var currentQuestionIndex: Int = 0
+
     
     // let's declare methods for our controls! writing these out manually
     

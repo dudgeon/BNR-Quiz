@@ -14,7 +14,6 @@
 		6CD17E351BC2D1E100463CE3 /* Quiz_Ch_01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD17E341BC2D1E100463CE3 /* Quiz_Ch_01Tests.swift */; };
 		6CD17E401BC2D1E100463CE3 /* Quiz_Ch_01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD17E3F1BC2D1E100463CE3 /* Quiz_Ch_01UITests.swift */; };
 		6CD17E4E1BC2DF4100463CE3 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD17E4D1BC2DF4100463CE3 /* QuizViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		6CD17E501BC2DFC800463CE3 /* Notes.md in Sources */ = {isa = PBXBuildFile; fileRef = 6CD17E4F1BC2DFC800463CE3 /* Notes.md */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		6CD17E3F1BC2D1E100463CE3 /* Quiz_Ch_01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz_Ch_01UITests.swift; sourceTree = "<group>"; };
 		6CD17E411BC2D1E100463CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CD17E4D1BC2DF4100463CE3 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuizViewController.swift; path = ../QuizViewController.swift; sourceTree = "<group>"; };
-		6CD17E4F1BC2DFC800463CE3 /* Notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = Notes.md; path = ../Notes.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +102,6 @@
 				6CD17E231BC2D1E100463CE3 /* Main.storyboard */,
 				6CD17E261BC2D1E100463CE3 /* Assets.xcassets */,
 				6CD17E281BC2D1E100463CE3 /* LaunchScreen.storyboard */,
-				6CD17E4F1BC2DFC800463CE3 /* Notes.md */,
 				6CD17E2B1BC2D1E100463CE3 /* Info.plist */,
 			);
 			path = "Quiz-Ch_01";
@@ -260,7 +257,6 @@
 			files = (
 				6CD17E201BC2D1E100463CE3 /* AppDelegate.swift in Sources */,
 				6CD17E4E1BC2DF4100463CE3 /* QuizViewController.swift in Sources */,
-				6CD17E501BC2DFC800463CE3 /* Notes.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +483,7 @@
 				6CD17E461BC2D1E100463CE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CD17E471BC2D1E100463CE3 /* Build configuration list for PBXNativeTarget "Quiz-Ch_01Tests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +492,7 @@
 				6CD17E491BC2D1E100463CE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CD17E4A1BC2D1E100463CE3 /* Build configuration list for PBXNativeTarget "Quiz-Ch_01UITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +501,7 @@
 				6CD17E4C1BC2D1E100463CE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
